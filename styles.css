@@ -1,8 +1,147 @@
-    .attribution {
-        font-size: 12px;
-        text-align: center;
-    }
+@font-face{
+    font-family: "jakarta";
+    src: url("./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf")
+}
+html {
+    box-sizing: border-box;
+    font-family: "jakarta";
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(210, 60%, 98%);
+    line-height: 1.4;
+}
 
-    .attribution a {
-        color: hsl(228, 45%, 44%);
-    }
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+#notifications-panel {
+    margin: 10px auto;
+    max-width: 700px;
+    padding: 10px 15px 0px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.alert{
+    font-size: 1.2rem;
+    font-variation-settings: "wght" 800;
+}
+
+#notification-count{
+    display: inline-block;
+    margin-left: 3px;
+    padding: 3px 10px;
+    background-color: hsl(219, 85%, 26%);
+    border-radius: 5px;
+    color: white;
+}
+
+button{
+    text-decoration: none;
+    border: none;
+    color: hsl(219, 12%, 42%);
+    cursor: pointer;
+    background-color: transparent;
+    font-variation-settings: "wght" 600;
+    font-size: 1rem;
+}
+
+.notification {
+    padding: 15px;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.unread{
+    background-color: hsl(211, 68%, 94%);
+}
+.img-container {
+    margin-right: 10px;
+}
+img{
+    width: 50px;
+    height: auto;
+}
+.preview-img{
+    display: inline-block;
+    margin-left: 10px;
+}
+.message > span.name{
+    font-variation-settings: "wght" 700;
+    font-size: 1.1rem;
+    color: black;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.time{
+    color: gray;
+    
+}
+.message{
+    color: hsl(219, 12%, 42%);
+}
+.notification a{
+    text-decoration: none;
+    padding: 0px 3px;
+}
+a.post{
+    color: hsl(222, 5%, 39%);
+    font-variation-settings: "wght" 700;
+
+}
+a.group{
+    color: hsl(218, 49%, 47%);
+    font-variation-settings: "wght" 700;
+}
+/*Hover states */
+a:hover, span.name:hover, button:hover{
+    color:hsl(219, 85%, 26%);
+    transition: 0.2s;
+}
+.private-message:hover{
+    background-color: hsl(211, 68%, 94%);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.preview-img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.private-message{
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 15px;
+    color: hsl(219, 14%, 63%);
+    line-height: 1.1;
+}
+
+span.dot{
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    position: relative;
+    bottom: 2px;
+    left: 2px;
+
+
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.attribution {
+    font-size: 12px;
+    text-align: center;
+
+}
