@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/sjoseph91/notification-panel
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://sjoseph91.github.io/notification-panel/
 
 ### Built with
 
