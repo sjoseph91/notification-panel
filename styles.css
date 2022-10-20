@@ -21,7 +21,7 @@ body{
 }
 #notifications-panel {
     margin: 10px auto;
-    max-width: 700px;
+    max-width: 650px;
     padding: 10px 15px 0px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
@@ -57,12 +57,12 @@ button{
 
 .notification {
     padding: 15px;
-    display: flex;
     border-radius: 10px;
     margin-bottom: 15px;
+    display: flex;
 }
 .unread{
-    background-color: hsl(211, 68%, 94%);
+    background-color: hsl(213, 47%, 96%);
 }
 .img-container {
     margin-right: 10px;
@@ -70,6 +70,9 @@ button{
 img{
     width: 50px;
     height: auto;
+}
+.hasImage .notification-text{
+    flex-grow: 1;
 }
 .preview-img{
     display: inline-block;
@@ -115,6 +118,7 @@ a:hover, span.name:hover, button:hover{
 .preview-img:hover{
     cursor: pointer;
     transform: scale(1.1);
+
 }
 .private-message{
     margin-top: 10px;
@@ -124,6 +128,7 @@ a:hover, span.name:hover, button:hover{
     color: hsl(219, 14%, 63%);
     line-height: 1.1;
 }
+
 
 span.dot{
     display: inline-block;
