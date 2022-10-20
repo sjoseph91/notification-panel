@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-(./assets/images/notification-panel-screenshot.JPG)
+![](./assets/images/notification-panel-screenshot.JPG)
 
 ### Links
 
