@@ -55,7 +55,7 @@ When using flexbox to space out elements, and you need one flex-item to justify 
 ## Author
 
 - Website - [Sean Joseph](https://github.com/sjoseph91)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@sjoseph91](https://www.frontendmentor.io/profile/sjoseph91)
 
 ## Acknowledgments
 
